@@ -220,7 +220,7 @@ def calculate_for_depth():
 def main():
     xs, ys, integral, arclength, intersections, l1 = calculate_for_depth()
     fig, ax = plt.subplots()
-    fig.canvas.manager.set_window_title('Generalized CDF builder with L1 colmogorov-smirnov test')
+    fig.canvas.manager.set_window_title('Generalized CDF builder')
 
 
     
